@@ -86,6 +86,24 @@ return packer.startup(function(use)
     -- Bufferline
     use "akinsho/bufferline.nvim"
 
+    -- status line
+    use 'nvim-lualine/lualine.nvim'
+
+    -- toggle term
+    use "akinsho/toggleterm.nvim"
+
+    -- project management
+    use "ahmedkhalf/project.nvim"
+
+    -- Show the indent lines
+    use "lukas-reineke/indent-blankline.nvim"
+
+    -- Dashboard
+    use 'goolord/alpha-nvim'
+
+    -- Which key
+    use "folke/which-key.nvim"
+
     -- Automatically set up your configuration after cloning packer.nvim
     -- Put this at the end after all plugins
     if PACKER_BOOTSTRAP then
