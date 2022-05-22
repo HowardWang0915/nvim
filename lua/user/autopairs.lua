@@ -11,7 +11,7 @@ npairs.setup {
         javascript = { "string", "template_string" },
         java = false,
     },
-    disable_filetype = { "TelescopePrompt", "spectre_panel" },  -- don't include telescope
+    disable_filetype = { "TelescopePrompt", "spectre_panel", "vim" },  -- don't include telescope
     fast_wrap = {                                               -- like vim-surround, but faster
         map = "<M-e>",
         chars = { "{", "[", "(", '"', "'" },

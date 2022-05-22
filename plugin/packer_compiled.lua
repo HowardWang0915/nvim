@@ -139,6 +139,11 @@ _G.packer_plugins = {
     path = "/home/howard/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
   },
+  neogit = {
+    loaded = true,
+    path = "/home/howard/.local/share/nvim/site/pack/packer/start/neogit",
+    url = "https://github.com/TimUntersberger/neogit"
+  },
   ["nvim-autopairs"] = {
     loaded = true,
     path = "/home/howard/.local/share/nvim/site/pack/packer/start/nvim-autopairs",

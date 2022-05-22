@@ -78,6 +78,7 @@ return packer.startup(function(use)
 
     -- git
     use "lewis6991/gitsigns.nvim"
+    use "TimUntersberger/neogit"
 
     -- Nvim tree
     use 'kyazdani42/nvim-web-devicons'
