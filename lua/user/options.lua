@@ -14,10 +14,11 @@ local options = {
     clipboard = "unnamedplus",              -- Allow clipboard
     showtabline = 2,                        -- Show the tabline above
     termguicolors = true,                   -- Optioins for colorschemes
-    timeoutlen = 150,                       -- Mapping delays
+    timeoutlen = 300,                       -- Mapping delays
     ttimeoutlen = 0,                        -- key code delays
     updatetime = 300,                       -- faster completion
     signcolumn = "yes",                     -- column for lsp
+    pumheight = 10,                         -- popup menu height
 
 }
 
