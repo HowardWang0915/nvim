@@ -38,3 +38,6 @@ keymap("v", ">", ">gv", opts)
 keymap("n", "<leader>sf", "<cmd>lua require 'telescope.builtin'.find_files()<CR>", opts)
 keymap("n", "<leader>st", "<cmd>lua require 'telescope.builtin'.live_grep()<CR>", opts)
 keymap("n", "<leader>sr", "<cmd>lua require 'telescope.builtin'.lsp_references()<CR>", opts)
+
+-- Nvim tree
+keymap("n", "<leader>e", ":NvimTreeToggle<cr>", opts)
